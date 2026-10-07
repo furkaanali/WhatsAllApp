@@ -1,0 +1,29 @@
+name: vayun_demo
+style:
+  look: cinematic, golden hour, shallow depth of field, 35mm film
+  palette: warm amber and teal
+  characters:
+    asha: young woman, short black hair, green jacket
+output:
+  width: 1280
+  height: 720
+  fps: 24
+  transition: 0.5
+scenes:
+  - id: s01
+    description: "@asha walks through a crowded night market, neon signs reflecting on wet pavement"
+    shot: wide establishing shot
+    camera: slow push-in
+    motion: people moving in the background
+    duration: 4
+  - id: s02
+    description: "@asha pauses at a tea stall and looks up at the sky"
+    shot: medium close-up
+    camera: slow pull-out
+    duration: 3.5
+  - id: s03
+    description: "rooftop view of the city at dawn, birds taking off"
+    shot: aerial shot
+    camera: gentle pan right
+    motion: birds flying
+    duration: 4
