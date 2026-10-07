@@ -1,0 +1,12 @@
+# Real backends: adapt endpoint + field names to your vendor. Keys come from env vars.
+image:
+  type: http
+  endpoint: https://api.example.com/v1/images
+  api_key_env: IMAGE_API_KEY
+  result_field: output.0.url
+video:
+  type: http
+  endpoint: https://api.example.com/v1/image-to-video
+  api_key_env: VIDEO_API_KEY
+  result_field: output.video_url
+  timeout: 1800
